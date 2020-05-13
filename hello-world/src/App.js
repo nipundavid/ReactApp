@@ -11,7 +11,8 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <Counter></Counter>
+        <Greet name="Batman" movieName="Batman Begins"></Greet>
+        <Welcome name="Superman" movieName="Man of Steel"></Welcome>
       </div>
     );
   }
