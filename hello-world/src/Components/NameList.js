@@ -37,7 +37,7 @@ function NameList() {
   // passed to different
   const personList = PersonData.map((person) => (
     <h2>
-      <Person key={person.name} person={person}></Person>
+      <Person key={person.id} person={person}></Person>
     </h2>
   ));
 

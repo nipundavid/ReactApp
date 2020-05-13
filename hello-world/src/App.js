@@ -11,12 +11,13 @@ import ClassClick from "./Components/ClassClick";
 import EventBind from "./Components/EventBind";
 import Parent from "./Components/Parent";
 import NameList from "./Components/NameList";
+import Form from "./Components/Form";
 
 class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <NameList></NameList>
+        <Form></Form>
       </div>
     );
   }
