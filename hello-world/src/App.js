@@ -9,8 +9,19 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <Greet />
-        <Welcome />
+        <Greet name="Batman" movieName="Batman Begins">
+          <p>Some Text</p>
+        </Greet>
+        <Greet name="Superman" movieName="Man of Steel">
+          <button>Action</button>
+        </Greet>
+
+        <Welcome name="Batman" movieName="Batman Begins">
+          {" "}
+        </Welcome>
+        <Welcome name="Superman" movieName="Man of Steel">
+          {" "}
+        </Welcome>
       </div>
     );
   }
