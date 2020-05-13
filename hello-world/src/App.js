@@ -5,12 +5,13 @@ import "./App.css";
 import { Greet } from "./Components/Greet";
 import Welcome from "./Components/Welcome";
 import Message from "./Components/Message";
+import Counter from "./Components/Counter";
 
 class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <Message></Message>
+        <Counter></Counter>
       </div>
     );
   }
