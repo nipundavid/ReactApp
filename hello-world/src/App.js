@@ -6,13 +6,15 @@ import { Greet } from "./Components/Greet";
 import Welcome from "./Components/Welcome";
 import Message from "./Components/Message";
 import Counter from "./Components/Counter";
+import FunctionClick from "./Components/FunctionClick";
+import ClassClick from "./Components/ClassClick";
 
 class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <Greet name="Batman" movieName="Batman Begins"></Greet>
-        <Welcome name="Superman" movieName="Man of Steel"></Welcome>
+        <FunctionClick></FunctionClick>
+        <ClassClick></ClassClick>
       </div>
     );
   }
