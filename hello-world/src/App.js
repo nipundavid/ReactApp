@@ -10,12 +10,13 @@ import FunctionClick from "./Components/FunctionClick";
 import ClassClick from "./Components/ClassClick";
 import EventBind from "./Components/EventBind";
 import Parent from "./Components/Parent";
+import NameList from "./Components/NameList";
 
 class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <Parent></Parent>
+        <NameList></NameList>
       </div>
     );
   }
